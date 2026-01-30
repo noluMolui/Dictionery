@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+}
+
+.app {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  background: rgb(102, 96, 96);
+  border-radius: 10px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #4f46e5;
+  color: rgb(202, 51, 51);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+.result {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.meaning {
+  margin-bottom: 15px;
+}
+
+.error {
+  color: red;
+}
